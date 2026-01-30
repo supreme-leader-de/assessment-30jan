@@ -33,7 +33,6 @@ Using the given `salary`, `income`, and `deduction` tables, perform the followin
 | 1  | Insurance | 5          |
 | 2  | Health    | 6          |
 | 3  | House     | 4          |
-
 ## 🚀 Expected Output (Final Salary Report)
 
 | EMPLOYEE | BASIC | ALLOWANCE | OTHERS | GROSS | INSURANCE | HEALTH | HOUSE | TOTAL_DEDUCTIONS | NET_PAY |
