@@ -7,7 +7,7 @@ For example:
 * The last non-null `CAR` is "Kia Sportage".
 * The last non-null `LENGTH` is 12.
 * The last non-null `WIDTH` is 15.
-* The last non-null `HEIGHT` is 18.
+* The last non-null `HEIGHT` is 18.                                                   
 
 ## 💾 Input Table (`footer_values`)
 
@@ -24,3 +24,6 @@ For example:
 | CAR          | LENGTH | WIDTH | HEIGHT |
 |--------------|--------|-------|--------|
 | Kia Sportage | 12     | 15    | 18     |
+
+
+    
