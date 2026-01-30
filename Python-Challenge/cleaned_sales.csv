@@ -1,13 +1,12 @@
-Order ID,Product,Quantity Ordered,Price Each,Order Date,Street,City,State Zip
-1001.0,USB-C Cable,2.0,11.95,01/01/23 10:00,917 1st St, Dallas, TX 75001
-1002.0,Macbook Pro Laptop,1.0,1700.0,01/02/23 12:00,682 Chestnut St, Boston, MA 02215
-1003.0,USB-C Cable,1.0,,01/05/23 11:30,123 Main St, Austin, TX 73301
-1004.0,AAA Batteries (4-pack),3.0,2.99,01/10/23 09:15,456 Elm St, San Francisco, CA 94016
-,,,,,,,
-1005.0,AAA Batteries (4-pack),2.0,2.99,2023-02-01 14:00,789 Maple St, Los Angeles, CA 90001
-1006.0,ThinkPad Laptop,1.0,999.99,02/05/23 16:20,321 Oak St, New York, NY 10001
-1007.0,USB-C Cable,1.0,11.95,02/10/23 08:45,654 Pine St, Atlanta, GA 30301
-1008.0,ThinkPad Laptop,1.0,,02/15/23 13:00,987 Cedar St, Portland, OR 97035
-1009.0,Lightning Cable,1.0,14.95,03/01/23 10:00,111 Birch St, Seattle, WA 98101
-1010.0,Lightning Cable,3.0,14.95,03/05/23 12:30,222 Walnut St, Miami, FL 33101
-1011.0,AAA Batteries (4-pack),1.0,2.99,03/10/23 15:45,333 Cherry St, Denver, CO 80201
+Order ID,Product,Quantity Ordered,Price Each,Order Date,Street,City,State Zip,Month,Total Sales
+1001.0,USB-C Cable,2.0,11.95,2023-01-01 10:00:00,917 1st St, Dallas, TX 75001,2023-01,23.9
+1002.0,Macbook Pro Laptop,1.0,1700.0,2023-01-02 12:00:00,682 Chestnut St, Boston, MA 02215,2023-01,1700.0
+1003.0,USB-C Cable,1.0,11.95,2023-01-05 11:30:00,123 Main St, Austin, TX 73301,2023-01,11.95
+1004.0,AAA Batteries (4-pack),3.0,2.99,2023-01-10 09:15:00,456 Elm St, San Francisco, CA 94016,2023-01,8.97
+1005.0,AAA Batteries (4-pack),2.0,2.99,2023-02-01 14:00:00,789 Maple St, Los Angeles, CA 90001,2023-02,5.98
+1006.0,ThinkPad Laptop,1.0,999.99,2023-02-05 16:20:00,321 Oak St, New York, NY 10001,2023-02,999.99
+1007.0,USB-C Cable,1.0,11.95,2023-02-10 08:45:00,654 Pine St, Atlanta, GA 30301,2023-02,11.95
+1008.0,ThinkPad Laptop,1.0,999.99,2023-02-15 13:00:00,987 Cedar St, Portland, OR 97035,2023-02,999.99
+1009.0,Lightning Cable,1.0,14.95,2023-03-01 10:00:00,111 Birch St, Seattle, WA 98101,2023-03,14.95
+1010.0,Lightning Cable,3.0,14.95,2023-03-05 12:30:00,222 Walnut St, Miami, FL 33101,2023-03,44.849999999999994
+1011.0,AAA Batteries (4-pack),1.0,2.99,2023-03-10 15:45:00,333 Cherry St, Denver, CO 80201,2023-03,2.99
