@@ -1,4 +1,4 @@
-# Python Challenge: Sales Trend Analysis (Pandas)
+    # Python Challenge: Sales Trend Analysis (Pandas)
 
 ## 📝 Problem Statement
 You are given a raw dataset (`sales_data.csv`) containing sales transactions. The data is "messy" (contains missing values, inconsistent dates, and duplicates).

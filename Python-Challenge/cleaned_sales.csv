@@ -1,0 +1,12 @@
+,order_id,product,quantity_ordered,price_each,order_date,purchase_address,city,code
+0,1001,USB-C Cable,2,11.95,2023-01-01 10:00:00,917 1st St, Dallas, TX 75001
+1,1002,Macbook Pro Laptop,1,1700.0,2023-01-02 12:00:00,682 Chestnut St, Boston, MA 02215
+2,1003,USB-C Cable,1,306.97333333333324,2023-01-05 11:30:00,123 Main St, Austin, TX 73301
+3,1004,AAA Batteries (4-pack),3,2.99,2023-01-10 09:15:00,456 Elm St, San Francisco, CA 94016
+5,1005,AAA Batteries (4-pack),2,2.99,2023-02-01 14:00:00,789 Maple St, Los Angeles, CA 90001
+6,1006,ThinkPad Laptop,1,999.99,2023-02-05 16:20:00,321 Oak St, New York, NY 10001
+7,1007,USB-C Cable,1,11.95,2023-02-10 08:45:00,654 Pine St, Atlanta, GA 30301
+8,1008,ThinkPad Laptop,1,306.97333333333324,2023-02-15 13:00:00,987 Cedar St, Portland, OR 97035
+9,1009,Lightning Cable,1,14.95,2023-03-01 10:00:00,111 Birch St, Seattle, WA 98101
+10,1010,Lightning Cable,3,14.95,2023-03-05 12:30:00,222 Walnut St, Miami, FL 33101
+11,1011,AAA Batteries (4-pack),1,2.99,2023-03-10 15:45:00,333 Cherry St, Denver, CO 80201
