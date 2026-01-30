@@ -1,1 +1,9 @@
 -- write your solution here
+
+WITH cte1 AS 
+(SELECT *, SUM(CASE WHEN JOB_ROLE IS NOT NULL THEN 1 ELSE 0 END)OVER (ORDER BY ROW_ID) AS cum_sum FROM job_skills
+),
+cte2 as (
+SELECT ROW_ID, MAX(JOB_ROLE) OVER (PARTITION BY cum_sum) AS JOB_ROLE, SKILLS FROM cte1
+)
+select ROW_ID, JOB_ROLE, SKILLS from cte2
