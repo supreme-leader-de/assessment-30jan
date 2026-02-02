@@ -18,7 +18,11 @@ df = pd.read_csv("sales_data.csv", names=cols, header=0)
 df = df.dropna(subset=["order_id","product"])
 df["quantity_ordered"] = df["quantity_ordered"].astype(int)
 df["order_id"] = df["order_id"].astype(int)
-df.fillna(df["price_each"].mean(), inplace=True)
+
+df["price_each"] = df.groupby("product")["price_each"].transform(
+    lambda x: x.fillna(x.mean())
+)
+
 df["order_date"] = pd.to_datetime(df["order_date"], errors="coerce", dayfirst=False)
 
 df.to_csv("cleaned_sales.csv")
@@ -26,6 +30,7 @@ df.to_csv("cleaned_sales.csv")
 # Analysis
 # total sales
 df["total_sales"] = df["quantity_ordered"] * df["price_each"]
+print(df)
 
 # monthly revenur
 df["year_month"] = df["order_date"].dt.to_period("M")
